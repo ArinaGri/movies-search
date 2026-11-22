@@ -7,6 +7,7 @@ import streamlit as st
 
 from utils.ranking import weighted_rating, LANGUAGE_DICT
 
+
 st.set_page_config(
     page_title="Что посмотреть?",
     page_icon="🎬",
