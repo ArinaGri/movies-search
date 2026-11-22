@@ -8,14 +8,16 @@ import streamlit as st
 from utils.ranking import weighted_rating, LANGUAGE_DICT
 
 
+
 st.set_page_config(
     page_title="Что посмотреть?",
     page_icon="🎬",
     layout="wide"
 )
 
-DATA_PATH = Path(__file__).parent / "data" / "movies.csv"
+DATA_PATH_2 = Path(__file__).parent / "data" / "movies.csv"
 
+DATA_PATH = DATA_PATH_2
 
 # -----------------------------
 # Предобработка данных
